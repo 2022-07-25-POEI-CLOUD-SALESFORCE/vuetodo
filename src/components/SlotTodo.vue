@@ -14,7 +14,7 @@
 <style scoped>
   .total {
     color: black;
-    margin: 1.5em 2px;
+    margin: 20px 2px;
     font-size: 4em;
     text-shadow: 3px 3px 3px silver;
     text-align: center;

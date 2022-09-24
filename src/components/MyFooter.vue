@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <p>Copyright &copy;{{dte}} - Moi</p>
+    Copyright &copy;{{dte}} - Moi
   </footer>
 </template>
 
@@ -9,6 +9,7 @@
     name: 'MyFooter',
     data() {
       return {
+        //date dynamique
         dte: new Date().getFullYear()
       }
     }
@@ -17,6 +18,10 @@
 
 <style>
   footer {
+    height: 30px;
+    line-height: 30px;
     text-align: center;
+    background: black;
+    color: white; 
   }
 </style>
